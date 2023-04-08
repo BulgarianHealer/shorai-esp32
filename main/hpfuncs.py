@@ -126,6 +126,7 @@ def queryall():
 
 def watchdog():
     bootlist = []
+    bootlist.append((2,0,3,16,0,0,6,1,48,1,0,1,176,4))
     bootlist.append((2,0,3,16,0,0,6,1,48,1,0,1,187,249))
     bootlist.append((2,0,3,16,0,0,6,1,48,1,0,1,190,246))
     return bootlist
